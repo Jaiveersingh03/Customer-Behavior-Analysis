@@ -106,36 +106,3 @@ Optimize discount strategy to protect margins
 Highlight top-rated products in marketing campaigns
 Target high-spending age groups with personalized promotions
 
-▶️ How to Run the Project
-
-1. Clone the repository
-git clone https://github.com/your-username/customer-shopping-behavior-analysis.git
-
-2. Install Python dependencies
-pip install -r requirements.txt
-
-3. Run the Python analysis
-python eda_script.py
-
-4. Load data into PostgreSQL
-Update your DB credentials inside the script, then run it.
-5. Execute SQL queries
-Run the SQL files in your PostgreSQL client (pgAdmin / DBeaver).
-6. Open Power BI dashboard
-Load the .pbix file to explore insights.
-
-📂 Folder Structure
-├── data/
-│   ├── raw_dataset.csv
-│   └── cleaned_dataset.csv
-├── notebooks/
-│   └── eda.ipynb
-├── scripts/
-│   ├── eda_script.py
-│   └── load_to_postgres.py
-├── sql/
-│   └── business_queries.sql
-├── dashboard/
-│   └── customer_behavior.pbix
-├── README.md
-└── requirements.txt
